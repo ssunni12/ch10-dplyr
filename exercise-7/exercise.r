@@ -15,6 +15,7 @@ team.data <- mutate(team.data, Turnovers = TOV / STL)
 # Sort the teams from lowest turnover/steal ratio to highest
 # Which team has the lowest ratio?
 team.data <- arrange(team.data, Turnovers)
+## BOSTON CELTICS
 
 # Using the pipe operator, create a new column of assists per game (AST / G) AND
 # sort the data.frame by this new column in DESCENDING order.
